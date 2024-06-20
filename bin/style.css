@@ -1,0 +1,67 @@
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #9b9494;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #a1a1a1;
+  }
+
+  p {
+    color: #a1a1a1;
+  }
+
+  
+  
+  .instrument-select {
+    margin-bottom: 10px;
+  }
+  
+  select {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #7f37a8;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .audio-player {
+    margin-top: 20px;
+  }
+
+  
+
+
+
